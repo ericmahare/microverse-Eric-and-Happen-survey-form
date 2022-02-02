@@ -12,17 +12,64 @@ body{
 }
 #main{
   width: 100%;
-  height: 100vh;
-  background-color: rgba(1, 1, 22,.8);
-  color: #fff;
-}
-.form-section{
-  width: 100%;
   height: 100%;
+  background-color: rgba(1, 1, 22,.7);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.form-section{
+  display: block;
+}
 #survey-form{
-
+  background-color: rgba(38, 38, 102, 0.5);
+  padding: 40px;
+}
+.checkbox-section{
+  display: grid;
+}
+#title{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+#description{
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+}
+.label{
+  display: block;
+  margin-bottom: 10px;
+}
+.input{
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+.radio-sec{
+  display: block;
+  margin-bottom: 20px;
+}
+.input-radio{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.input-checkbox{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+#submit{
+  background-color: rgb(100, 223, 100);
+  color: white;
+  font-size: 18px;
+  border: none;
 }
